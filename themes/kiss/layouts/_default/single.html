@@ -16,25 +16,13 @@
       {{ .Content }}
       {{ if .Site.Params.Info.related }}
       <div class="related">{{ partial "related" . }}</div>
+      {{ partial "post-comments" . }}
       {{ end }}
     </div>
+
     {{ if and (.Site.Params.Info.adsense)  (.Params.adsenseBottom) }}
     {{ partial "adsense" . }}
     {{ end}}
   </div>
-
-  <br>
-
-  {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (.Site.Params.comments)) }}
-    {{ if .Site.DisqusShortname }}
-      <div class="disqus-comments">
-        {{ template "_internal/disqus.html" . }}
-      </div>
-    {{ end }}
-    {{ if (.Site.Params.staticman_api) }}
-      {{ partial "post-comments" . }}
-    {{ end }}
-  {{ end }}
-  
 </section>
 {{ partial "footer" . }}
