@@ -63,3 +63,6 @@ tag ="tags"
 [blackfriday]
 hrefTargetBlank = true
 #pygmentsStyle = "native"
+
+[staticman]
+staticman_api = "https://api.staticman.net/v2/entry/tyl33r/blog/master/comments" #Add staticman API URL to enable staticman comments
