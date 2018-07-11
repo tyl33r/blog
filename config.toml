@@ -12,7 +12,7 @@ description = "Stream social y blog personal de Arturo Castro Mejías."
 copyright = "Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional."
 
 [params.assets]
-customCSS = ["css/custom.css"]
+#customCSS = ["css/custom.css"]
 
 [author]
 name = "Arturo"
@@ -40,10 +40,10 @@ description = "Stream social y blog personal de Arturo Castro Mejías."
 
     # Add the following new Table somewhere under the params table
       [params.staticman]
-      endpoint = "https://api.staticman.net/v2/entry"
-      username = "tyl33r"
-      repository = "blog"
-      branch = "master"
+      #endpoint = "https://api.staticman.net/v2/entry"
+      #username = "tyl33r"
+      #repository = "blog"
+      #branch = "master"
 
 
 [permalinks]
