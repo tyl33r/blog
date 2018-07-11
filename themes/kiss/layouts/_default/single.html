@@ -22,16 +22,19 @@
     {{ partial "adsense" . }}
     {{ end}}
   </div>
-</section>
-{{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (.Site.Params.comments)) }}
-  {{ if .Site.DisqusShortname }}
-    <div class="disqus-comments">
-      {{ template "_internal/disqus.html" . }}
-    </div>
-  {{ end }}
-  {{ if (.Site.Params.staticman_api) }}
-    {{ partial "post-comments" . }}
-  {{ end }}
-{{ end }}
 
+  <br>
+
+  {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (.Site.Params.comments)) }}
+    {{ if .Site.DisqusShortname }}
+      <div class="disqus-comments">
+        {{ template "_internal/disqus.html" . }}
+      </div>
+    {{ end }}
+    {{ if (.Site.Params.staticman_api) }}
+      {{ partial "post-comments" . }}
+    {{ end }}
+  {{ end }}
+  
+</section>
 {{ partial "footer" . }}
