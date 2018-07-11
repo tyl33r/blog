@@ -35,7 +35,12 @@ description = "Stream social y blog personal de Arturo Castro Mejías."
     width = 800
     height = 450
 
-
+    # Add the following new Table somewhere under the params table
+      [params.staticman]
+      endpoint = "https://api.staticman.net/v2/entry"
+      username = "tyl33r"
+      repository = "blog"
+      branch = "master"
 
 
 [permalinks]
@@ -63,6 +68,3 @@ tag ="tags"
 [blackfriday]
 hrefTargetBlank = true
 #pygmentsStyle = "native"
-
-[staticman]
-staticman_api = "https://api.staticman.net/v2/entry/tyl33r/blog/master/comments" #Add staticman API URL to enable staticman comments

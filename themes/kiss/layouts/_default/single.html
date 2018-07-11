@@ -16,13 +16,12 @@
       {{ .Content }}
       {{ if .Site.Params.Info.related }}
       <div class="related">{{ partial "related" . }}</div>
-      {{ partial "post-comments" . }}
       {{ end }}
     </div>
-
     {{ if and (.Site.Params.Info.adsense)  (.Params.adsenseBottom) }}
     {{ partial "adsense" . }}
     {{ end}}
   </div>
 </section>
+{{ partial "disqus" . }}
 {{ partial "footer" . }}
