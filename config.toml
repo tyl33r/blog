@@ -11,6 +11,9 @@ canonifyURLs = true
 description = "Stream social y blog personal de Arturo Castro Mejías."
 copyright = "Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional."
 
+[params.assets]
+customCSS = ["css/custom.css"]
+
 [author]
 name = "Arturo"
 
