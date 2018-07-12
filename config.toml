@@ -25,8 +25,8 @@ description = "Stream social y blog personal de Arturo Castro Mejías."
 
     [params.publisher.logo]
       url = "/img/logo-tyl3r.png"
-      #width = 250
-      #height = 250
+      width = 250
+      height = 350
 
   [params.logo]
     url = "/img/logo-@ac-cuadrado"
@@ -39,7 +39,7 @@ description = "Stream social y blog personal de Arturo Castro Mejías."
     height = 450
 
     # Add the following new Table somewhere under the params table
-      [params.staticman]
+      #[params.staticman]
       #endpoint = "https://api.staticman.net/v2/entry"
       #username = "tyl33r"
       #repository = "blog"
