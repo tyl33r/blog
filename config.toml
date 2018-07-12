@@ -26,7 +26,7 @@ description = "Stream social y blog personal de Arturo Castro Mejías."
     [params.publisher.logo]
       url = "/img/logo-tyl3r.png"
       width = 250
-      height = 350
+      height = 60
 
   [params.logo]
     url = "/img/logo-@ac-cuadrado"
