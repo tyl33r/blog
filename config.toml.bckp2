@@ -1,0 +1,68 @@
+baseURL = "https://a.geek.cl/"
+languageCode = "es"
+title = "@arturo"
+newContentEditor = "nano"
+theme = "kiss"
+Paginate = 5
+enableRobotsTXT = true
+googleAnalytics = ""
+#disqusShortname = "a-geek"
+canonifyURLs = true
+description = "Stream social y blog personal de Arturo Castro Mejías."
+copyright = "Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional."
+
+[author]
+name = "Arturo"
+
+[params]
+description = "Stream social y blog personal de Arturo Castro Mejías."
+
+  [params.publisher]
+    name = "Tyl3r.co <3"
+
+    [params.publisher.logo]
+      url = "/img/logo-tyl3r.png"
+      width = 250
+      height = 250
+
+  [params.logo]
+    url = "/img/logo-@ac-cuadrado"
+    width = 250
+    height = 250
+
+  [params.image]
+    url = "/img/hijos-yo.jpg"
+    width = 800
+    height = 450
+
+
+
+
+[permalinks]
+ post = "/:title/"
+ pagina = "/pagina/:title/"
+
+[params.info]
+#adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "@arturo" # Title for home page
+description = "Stream social y blog personal de Arturo Castro Mejías."
+poweredby = true # Adds powered by Hugo and Kiss below Copyright section
+related = true # Includes related articles
+
+[params.social]
+twitter = "arturo_c"
+email = "arturo@geek.cl"
+#facebook = "arturo.castro"
+#instagram = "artyl3r"
+
+[taxonomies]
+tag ="tags"
+
+
+[blackfriday]
+hrefTargetBlank = true
+#pygmentsStyle = "native"
+
+[staticman]
+staticman_api = "https://api.staticman.net/v2/entry/tyl33r/blog/master/comments" #Add staticman API URL to enable staticman comments

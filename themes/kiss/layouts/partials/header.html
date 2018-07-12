@@ -8,9 +8,11 @@
 {{ else }}
 <title>{{ .Site.Params.Info.homeTitle }}</title>
 {{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
 {{ if .Site.Params.Info.enableSocial }}
 {{- partial "social/opengraph" . -}}
 {{ end }}
+{{ partial "seo_schema" . }}
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}"/>
 {{- range .Site.Params.Assets.customCSS -}}
 <link rel='stylesheet' href='{{ . | absURL }}'>
