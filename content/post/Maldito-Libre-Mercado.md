@@ -1,6 +1,6 @@
 ---
 title: "Maldito Libre Mercado"
-date: 2019-09-29T06:44
+date: 2019-09-29T06:44:00Z
 draft: false
 tags: ["afp", "opinion", "libre mercado"]
 description: "Maldito Libre Mercado"
