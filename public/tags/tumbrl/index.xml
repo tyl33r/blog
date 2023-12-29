@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tumbrl on @arturo</title>
+    <link>https://a.geek.cl/tags/tumbrl/</link>
+    <description>Recent content in tumbrl on @arturo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.</copyright>
+    <lastBuildDate>Sun, 29 Jul 2018 15:45:15 -0400</lastBuildDate>
+    <atom:link href="https://a.geek.cl/tags/tumbrl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zero Gravity</title>
+      <link>https://a.geek.cl/zero-gravity/</link>
+      <pubDate>Sun, 29 Jul 2018 15:45:15 -0400</pubDate>
+      <guid>https://a.geek.cl/zero-gravity/</guid>
+      <description>&amp;lt;br &amp;gt; Por ~ Jake Raynor</description>
+    </item>
+  </channel>
+</rss>

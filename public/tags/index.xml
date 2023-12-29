@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on @arturo</title>
+    <link>https://a.geek.cl/tags/</link>
+    <description>Recent content in Tags on @arturo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.</copyright>
+    <lastBuildDate>Fri, 14 Feb 2020 06:44:00 +0000</lastBuildDate>
+    <atom:link href="https://a.geek.cl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>afp</title>
+      <link>https://a.geek.cl/tags/afp/</link>
+      <pubDate>Fri, 14 Feb 2020 06:44:00 +0000</pubDate>
+      <guid>https://a.geek.cl/tags/afp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>libre mercado</title>
+      <link>https://a.geek.cl/tags/libre-mercado/</link>
+      <pubDate>Fri, 14 Feb 2020 06:44:00 +0000</pubDate>
+      <guid>https://a.geek.cl/tags/libre-mercado/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>opinion</title>
+      <link>https://a.geek.cl/tags/opinion/</link>
+      <pubDate>Fri, 14 Feb 2020 06:44:00 +0000</pubDate>
+      <guid>https://a.geek.cl/tags/opinion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>fotografía</title>
+      <link>https://a.geek.cl/tags/fotograf%C3%ADa/</link>
+      <pubDate>Sun, 29 Jul 2018 15:45:15 -0400</pubDate>
+      <guid>https://a.geek.cl/tags/fotograf%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>imagen</title>
+      <link>https://a.geek.cl/tags/imagen/</link>
+      <pubDate>Sun, 29 Jul 2018 15:45:15 -0400</pubDate>
+      <guid>https://a.geek.cl/tags/imagen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tumbrl</title>
+      <link>https://a.geek.cl/tags/tumbrl/</link>
+      <pubDate>Sun, 29 Jul 2018 15:45:15 -0400</pubDate>
+      <guid>https://a.geek.cl/tags/tumbrl/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
